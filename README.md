@@ -41,12 +41,12 @@ AWS-RDS-Instance-Scheduler
 
 ## PoC 
 
-### Case 1. 
+### Case 1. RDS Instance Start on AWS Web Console.
 
 
-### Case 2.
+### Case 2. RDS Instance Stop on AWS Web Console.
 
 
-### Case 3.
+### Case 3. RDS Instance Start on Schedule.
 
-### Case 4.
+### Case 4. RDS Instance Stop on Schedule.
