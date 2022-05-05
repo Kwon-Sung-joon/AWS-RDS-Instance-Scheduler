@@ -12,7 +12,7 @@
                 "logs:CreateLogStream",
                 "logs:PutLogEvents"
             ],
-            "Resource": "arn:aws:logs:ap-northeast-2:<YOUR_ACCOUNT>:log-group:/aws/lambda/AWS-RDS-Instance-Scheduler:*"
+            "Resource": "arn:aws:logs:<YOUR_REGION>:<YOUR_ACCOUNT>:log-group:/aws/lambda/<YOUR_LAMBDA_FUNCTIONS>:*"
         },
         {
             "Effect": "Allow",
@@ -24,8 +24,8 @@
                 "rds:StartDBInstance"
             ],
             "Resource": [
-                "arn:aws:rds:ap-northeast-2:<YOUR_ACCOUNT>:<YOUR_DB_Identifier>",
-                "arn:aws:logs:ap-northeast-2:<YOUR_ACCOUNT>:*"
+                "arn:aws:rds:<YOUR_REGION>:<YOUR_ACCOUNT>:<YOUR_DB_IDENTIFIER>",
+                "arn:aws:logs:<YOUR_REGION>:<YOUR_ACCOUNT>:*"
             ]
         }
     ]
