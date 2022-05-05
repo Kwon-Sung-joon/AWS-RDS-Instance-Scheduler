@@ -25,6 +25,14 @@ Of course, automation is a must.
 
 ![image](https://user-images.githubusercontent.com/43159901/166939646-3519482c-9cc2-41fc-b691-c177cd964d36.png)
 
+## 2-1. Create Lambda Environment variables.
+
+Keys : EVENT_RULE, RDS_IDENTIFIER	
+Values : Event Ruls name of 3-3 , Your DB Identifer
+![image](https://user-images.githubusercontent.com/43159901/166950866-86d01c1f-249d-4deb-a2e7-2acd78058e40.png)
+
+
+
 ## 3. Create Amazon EventBridge Rules
 
 ## 3-1. Create RDS-Start-Rule with Custom Event pattern
