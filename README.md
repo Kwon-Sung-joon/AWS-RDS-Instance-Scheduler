@@ -7,7 +7,7 @@ Using Lambda and EvnetBridge will reduce your customer's AWS costs.
 
 
 # Architecture
-![image](https://user-images.githubusercontent.com/43159901/166937171-eee393ca-f3af-4a12-9e29-d037fe07a472.png)
+![image](https://user-images.githubusercontent.com/43159901/166948352-14eea3fa-8289-4c18-9e66-18813ee83bdd.png)
 
 
 ## 1. Create IAM Role For Lambda
