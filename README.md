@@ -8,7 +8,7 @@ Of course, automation is a must.
 
 
 # Architecture
-![image](https://user-images.githubusercontent.com/43159901/166948352-14eea3fa-8289-4c18-9e66-18813ee83bdd.png)
+![image](https://user-images.githubusercontent.com/43159901/166951503-89d1e272-dce9-4ede-b80c-37c4f19b8155.png)
 
 
 ## 1. Create IAM Role For Lambda
