@@ -51,13 +51,13 @@ AWS-RDS-Instance-Scheduler
 
 ### Case 2. RDS Instance Stop on AWS Web Console.
 ![image](https://user-images.githubusercontent.com/43159901/166946162-a6148fb5-9e2f-4402-ac71-f87e56fbafe6.png)
-
+![image](https://user-images.githubusercontent.com/43159901/166946684-1b83b7b9-88f8-427b-a92c-35e63943d21b.png)
 #### RDS-Schedule-Rule will change to after 7 days.
 #### After 7 days. Lambda will start rds db instance.
+![image](https://user-images.githubusercontent.com/43159901/166946848-d3b6d3aa-c266-41b5-8363-b4770919b26c.png)
 #### Likewise, you can see lambda outputs on CloudWatch Loggroups.
 
 ### Case 3. RDS Instance Start on Schedule.
-
 #### RDS-Schedule-Rule will change in the same way of Case 1.
 #### Likewise, you can see lambda outputs on CloudWatch Loggroups.
 
