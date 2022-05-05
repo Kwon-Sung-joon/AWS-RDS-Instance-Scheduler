@@ -39,3 +39,14 @@ AWS-RDS-Instance-Scheduler
 ![image](https://user-images.githubusercontent.com/43159901/166942957-c7c754b9-61c1-40f7-9252-0308344314ad.png)
 
 
+## PoC 
+
+### Case 1. 
+
+
+### Case 2.
+
+
+### Case 3.
+
+### Case 4.
