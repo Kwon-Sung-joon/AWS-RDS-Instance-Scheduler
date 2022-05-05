@@ -24,7 +24,7 @@
                 "rds:StartDBInstance"
             ],
             "Resource": [
-                "arn:aws:rds:ap-northeast-2:<YOUR_ACCOUNT>:db:database-1",
+                "arn:aws:rds:ap-northeast-2:<YOUR_ACCOUNT>:<YOUR_DB_Identifier>",
                 "arn:aws:logs:ap-northeast-2:<YOUR_ACCOUNT>:*"
             ]
         }
