@@ -45,6 +45,8 @@ AWS-RDS-Instance-Scheduler
 ![image](https://user-images.githubusercontent.com/43159901/166944689-4dccb7e3-9b04-4ba9-b61e-5b80784981d4.png)
 ![image](https://user-images.githubusercontent.com/43159901/166944940-360dc974-3f3b-473a-9e59-b1f7c89c9510.png)
 RDS-Schedule-Rule will change to after 1 hours. 
+![image](https://user-images.githubusercontent.com/43159901/166945373-b0426915-dd22-44d0-9cbf-d6aafdc54a03.png)
+Also, you can see lambda outputs on CloudWatch LogGroups.
 
 ### Case 2. RDS Instance Stop on AWS Web Console.
 
