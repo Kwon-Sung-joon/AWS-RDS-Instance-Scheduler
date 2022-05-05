@@ -27,8 +27,8 @@ Of course, automation is a must.
 
 ## 2-1. Create Lambda Environment variables.
 
-Keys : EVENT_RULE, RDS_IDENTIFIER	
-Values : Event Ruls name of 3-3 , Your DB Identifer
+Keys : EVENT_RULE, RDS_IDENTIFIER	<br>
+Values : RDS-Schedule-Rule (you can see on chapter 3-3.) , Your DB Identifer
 ![image](https://user-images.githubusercontent.com/43159901/166950866-86d01c1f-249d-4deb-a2e7-2acd78058e40.png)
 
 
