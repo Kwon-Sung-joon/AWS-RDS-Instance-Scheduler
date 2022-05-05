@@ -1,7 +1,8 @@
 # AWS-RDS-Instance-Scheduler
 If your customer using RDS DB Instance Only 1 hours per weeks,<br>
-What should we do for reduce AWS costs ? <br>
-Using Lambda and EvnetBridge will reduce your customer's AWS costs.
+What will you do for reduce AWS costs ? <br>
+Using Lambda and EvnetBridge will reduce your customer's AWS costs. <br>
+Of course, automation is a must.
 
 
 
