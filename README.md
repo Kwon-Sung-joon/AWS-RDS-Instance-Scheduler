@@ -42,7 +42,9 @@ AWS-RDS-Instance-Scheduler
 ## PoC 
 
 ### Case 1. RDS Instance Start on AWS Web Console.
-
+![image](https://user-images.githubusercontent.com/43159901/166944689-4dccb7e3-9b04-4ba9-b61e-5b80784981d4.png)
+![image](https://user-images.githubusercontent.com/43159901/166944940-360dc974-3f3b-473a-9e59-b1f7c89c9510.png)
+RDS-Schedule-Rule will change to after 1 hours. 
 
 ### Case 2. RDS Instance Stop on AWS Web Console.
 
