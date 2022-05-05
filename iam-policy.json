@@ -1,0 +1,32 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": "events:PutRule",
+            "Resource": "*"
+        },
+        {
+            "Effect": "Allow",
+            "Action": [
+                "logs:CreateLogStream",
+                "logs:PutLogEvents"
+            ],
+            "Resource": "arn:aws:logs:ap-northeast-2:<YOUR_ACCOUNT>:log-group:/aws/lambda/AWS-RDS-Instance-Scheduler:*"
+        },
+        {
+            "Effect": "Allow",
+            "Action": [
+                "rds:DescribeDBInstances",
+                "rds:CreateDBSnapshot",
+                "rds:StopDBInstance",
+                "logs:CreateLogGroup",
+                "rds:StartDBInstance"
+            ],
+            "Resource": [
+                "arn:aws:rds:ap-northeast-2:<YOUR_ACCOUNT>:db:database-1",
+                "arn:aws:logs:ap-northeast-2:<YOUR_ACCOUNT>:*"
+            ]
+        }
+    ]
+}
