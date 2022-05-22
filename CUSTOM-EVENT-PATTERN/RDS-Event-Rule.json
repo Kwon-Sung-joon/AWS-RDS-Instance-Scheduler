@@ -3,9 +3,9 @@
   "detail-type": ["AWS API Call via CloudTrail"],
   "detail": {
     "eventSource": ["rds.amazonaws.com"],
-    "eventName": ["StartDBInstance"],
+    "eventName": ["StartDBInstance","StopDBInstance"],
     "requestParameters": {
-      "dBInstanceIdentifier": ["<YOUR-DB-IDENTIFIER"]
+      "dBInstanceIdentifier": ["<YOUR-DB-IDENTIFIER>"]
     }
   }
 }
