@@ -57,16 +57,16 @@ Values : RDS-Schedule-Rule (you can see on chapter 3-3.) , Your DB Identifer
 ### Case 1. RDS Instance Start on AWS Web Console.
 ![image](https://user-images.githubusercontent.com/43159901/166944689-4dccb7e3-9b04-4ba9-b61e-5b80784981d4.png)
 ![image](https://user-images.githubusercontent.com/43159901/166944940-360dc974-3f3b-473a-9e59-b1f7c89c9510.png)
-#### RDS-Schedule-Rule will change to after 1 hours. 
-#### After 1 hours. Lambda will stop rds db instance.
+#### RDS-Schedule-Rule -> 1시간 후로 스케줄 변경
+#### 1시간 후에 Lambda가 실행되어 RDS 중지
 ![image](https://user-images.githubusercontent.com/43159901/166945373-b0426915-dd22-44d0-9cbf-d6aafdc54a03.png)
-#### Also, you can see lambda outputs on CloudWatch LogGroups.
+#### CloudWatch Loggroups에서 로그 확인 가능
 
 ### Case 2. RDS Instance Stop on AWS Web Console.
 ![image](https://user-images.githubusercontent.com/43159901/166946162-a6148fb5-9e2f-4402-ac71-f87e56fbafe6.png)
 ![image](https://user-images.githubusercontent.com/43159901/166946684-1b83b7b9-88f8-427b-a92c-35e63943d21b.png)
-#### RDS-Schedule-Rule will change to before 3 hours after 7 days.
-#### After 7 days. Lambda will start rds db instance.
+#### RDS-Schedule-Rule -> 7일 3시간 전으로 스케줄 변경
+#### 7일 후 (3시간 전) Lambbda가 실행되어 RDS 시작
 ![image](https://user-images.githubusercontent.com/43159901/166946848-d3b6d3aa-c266-41b5-8363-b4770919b26c.png)
-#### Likewise, you can see lambda outputs on CloudWatch Loggroups.
+#### CloudWatch Loggroups에서 로그 확인 가능
 
