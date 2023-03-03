@@ -1,10 +1,6 @@
 # AWS-RDS-Instance-Schedule
-
-RDS DB 인스턴스를 지정된 기간동안만 사용하는 경우, <br>
-금액 절감을 위해 Lambda, EventBridge를 사용하여 금액 절감. <br>
-
-
-
+- 지정된 시간 혹은 장기간 사용하지 않은 RDS를 중지하여 비용 절감
+- 
 
 # Architecture
 ![image](https://user-images.githubusercontent.com/43159901/166951503-89d1e272-dce9-4ede-b80c-37c4f19b8155.png)
